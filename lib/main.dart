@@ -9,17 +9,12 @@ import 'models/triangle_class.dart';
 
 void main(List<String> args) {
   var formats = <IDrawShape>[
-    Square(),
+    Line(),
     Circle(),
     Triangle(),
-    Rectangle(),
-    Line(),
     Square(),
-    Rectangle(),
-    Line(),
-    Square(),
-    Circle(),
     Rectangle(),
   ];
   DrawShape().drawShapes(formats);
+  // this is the sequence of printing 'Square', 'Circle', 'Rectangle', 'Triangle', 'Line'
 }
